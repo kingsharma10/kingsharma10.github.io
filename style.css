@@ -1,0 +1,30 @@
+.map {
+  height: 100%;
+  position: relative; 
+}
+
+/* 
+ * Optional: Makes the sample page fill the window. 
+ */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#fileDisplayArea {
+  margin-top: 2em;
+  width: 100%;
+  overflow-x: auto;
+}
+
+#text{
+  position: absolute; 
+  top: 10px; 
+  left: 10px; 
+  z-index: 99;
+  color: white;
+
+
+}
