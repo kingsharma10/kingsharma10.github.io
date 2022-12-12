@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The Amazing Airport Visualizer</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZ83FgcOMCYAOSs26JfRfcJNx-DitUXy0&callback=initMap">
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+
+
+<body>
+    <div id="mapContainer" class="map"></div>
+    <div id="words">
+    <h1 id="text" style="margin-left: 40%; margin-top: 20%">Share your favorite airports!</h1>
+    <p id="text" style="margin-left: 30%; margin-top: 23%">Upload a CSV document with your favorite airports. We’ll put them on a map, and provide a shareable url.</p>
+    <div id="text"
+        style="margin-left: 35%; margin-top: 25%; background-color: #011019; background-color: rgba(0,0,0,.5);">
+        <input type="file" name="csv" accept=".csv" id="fileInput">
+        Drag and drop a CSV file, or select one from your computer.
+    </div>
+</div>
+</body>
+
+
+
+<script src="index.js">
+</script>
+
+
+
+</html>
